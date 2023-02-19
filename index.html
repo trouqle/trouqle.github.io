@@ -20,14 +20,13 @@
 <body>
     <div class="navbar sticky-top">
         <div id="header">Portfolio</div>
-        <a href="#button" id="select-char">About Me</a>
-        <a href="#starship-button" id="episode">Projects</a>
-        <a href="" id="quote">Quotes</a>
+        <a href="#about-me" id="select-char">About Me</a>
+        <a href="#github-link" id="project">Projects</a>
+        <a href="#quoute" id="quote">Quotes</a>
     </div>
     <div>
-
-
-        <div class="myphoto rounded mx-auto d-block pt-4">
+        <div class="myphoto rounded mx-auto d-block pt-4"
+            id="about-me">
             <img src="myphoto.jpeg"
                 class="rounded mx-auto d-block"
                 alt="Orhan Kaya Photo">
@@ -44,10 +43,85 @@
             </p>
         </div>
     </div>
+    <hr>
+    <div class="second" id="github-link">
 
+        <div class="first-parap">
+            <p>
+                For 2 years I've been working on taking some
+                courses about web development and making
+                some
+                projects. You can see these projects via my
+                Github link, and there is also my Codepen
+                link.
+            </p>
+        </div>
+
+        <div class="second-parap">
+            <p>
+                <a class="github"
+                    href="https://github.com/trouqle"
+                    target="_blank">Github
+                    Link:
+                    https://github.com/trouqle</a>
+            </p>
+
+            <p>
+                <a href="https://codepen.io/Krainless"
+                    target="_blank">Codepen
+                    Link:
+                    https://codepen.io/Krainless</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/orhan-kaya-640511203/"
+                    target="_blank">Linkedin:
+                    https://www.linkedin.com/in/orhan-kaya-640511203/</a>
+            </p>
+        </div>
+    </div>
+    <div class="images">
+
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="wall-e.jpg"
+                        class="rounded mx-auto d-block w-50"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="starwars.jpg"
+                        class="rounded mx-auto d-block w-50"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="blomed1.jpg"
+                        class="rounded mx-auto d-block w-50"
+                        alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"
+                    aria-hidden="true"></span>
+                <span
+                    class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"
+                    aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
     <hr>
 
-    <div class="second text-center fs-4">
+    <div class="third text-center fs-4" id="quoute">
         <p>
             When I was in high school I always thinking
             about stuff that are about being computer
